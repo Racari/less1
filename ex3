@@ -1,5 +1,5 @@
 first = input("Введите число - ")
-double = (str(first) + str(first))
-triple = str(double) + str (first)
+double = str(first)*2
+triple = str(first)*3
 total = int(first) + int(double) + int(triple)
 print("Сумма чисел n + nn + nnn - %d" % total)

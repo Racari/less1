@@ -1,0 +1,5 @@
+first = input("Введите число - ")
+double = (str(first) + str(first))
+triple = str(double) + str (first)
+total = int(first) + int(double) + int(triple)
+print("Сумма чисел n + nn + nnn - %d" % total)

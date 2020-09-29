@@ -1,0 +1,4 @@
+username = input('enter your name ')
+age = int(input('enter your age '))
+
+print(f'привет, {username} тебе уже {age} лет')

@@ -1,0 +1,11 @@
+find = abs(int(input("Введите число ")))
+max = find % 10
+while find >= 1:
+    find = find // 10
+    if find % 10 > max:
+        max = find % 10
+    if find > 9:
+        continue
+    else:
+        print("Максимальное цифра ", max)
+        break
